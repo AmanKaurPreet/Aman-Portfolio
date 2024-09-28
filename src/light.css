@@ -1,0 +1,64 @@
+/* Light Mode Styles */
+body.light-mode {
+    --background-color: #ffffff; /* White Background */
+    --text-color: #333333; /* Dark Gray Text */
+    --border-color: #ff6f61; /* Coral Border */
+    --hover-color: #ff3d2e; /* Darker Coral on Hover */
+  }
+  
+  body.light-mode .skills,
+  body.light-mode .contact {
+    border: 2px solid var(--border-color);
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Light Gray Background for Sections */
+    color: var(--text-color); /* Text Color */
+  }
+  
+  body.light-mode .skills:hover,
+  body.light-mode .contact:hover {
+    border-color: var(--hover-color); /* Hover Effect for Border */
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    --background-color: #121212; /* Very Dark Gray Background */
+    --text-color: #e0e0e0; /* Light Gray Text */
+    --border-color: #bb86fc; /* Light Purple Border */
+    --hover-color: #9b59b6; /* Darker Purple on Hover */
+  }
+  
+  body.dark-mode .skills,
+  body.dark-mode .contact {
+    border: 2px solid var(--border-color);
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #1e1e1e; /* Dark Gray Background for Sections */
+    color: var(--text-color); /* Text Color */
+  }
+  
+  body.dark-mode .skills:hover,
+  body.dark-mode .contact:hover {
+    border-color: var(--hover-color); /* Hover Effect for Border */
+  }
+  
+  /* Additional Styles for Body and General Elements */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--border-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--hover-color);
+  }
+  
